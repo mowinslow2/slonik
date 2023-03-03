@@ -1,0 +1,2 @@
+import { type TimestampSqlToken, type SqlFragment } from '../types';
+export declare const createTimestampSqlFragment: (token: TimestampSqlToken, greatestParameterPosition: number) => SqlFragment;

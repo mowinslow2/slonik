@@ -1,0 +1,3 @@
+import { type Client as PgClient } from 'pg';
+import { type TypeParser } from '../types';
+export declare const createTypeOverrides: (pool: PgClient, typeParsers: readonly TypeParser[]) => Promise<(oid: number) => any>;

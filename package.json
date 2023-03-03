@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "pg": "^8.9.0",
+    "slonik": "^33.1.0",
+    "zod": "^3.20.6"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.6.6"
+  },
+  "type": "module"
+}
